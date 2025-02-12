@@ -6,7 +6,7 @@ from pathlib import Path
 
 class DataLoader:
     def __init__(self):
-        self.data_dir = Path(f"{os.getcwd()}/app/data")
+        self.data_dir = Path(f"{os.getcwd()}/app/data/raw")
         self.cats_dir = self.data_dir / "cats"
         self.dogs_dir = self.data_dir / "dogs"
         
